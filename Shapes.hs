@@ -1,3 +1,13 @@
+module Shapes ( 
+	Point(..), 
+	Shape(..), 
+	Size(..),
+	surface,
+	translate,
+	basicCircle,
+	basicRectangle
+	)where
+
 
 data Point = Point Float Float deriving (Show)
 data Size  = Size Float Float deriving (Show)
